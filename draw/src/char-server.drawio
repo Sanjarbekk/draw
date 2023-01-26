@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T10:28:12.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VFjDfya9zQlHVMpT5msD" version="20.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T10:45:30.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZRSUjSPM5lnlLFi_VxH-" version="20.8.8" type="github">
   <diagram name="Page-1" id="KIwHybLn52e8ehzTKOoV">
     <mxGraphModel dx="2261" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -52,10 +52,10 @@
             <mxPoint x="150" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="veVKL41kce-d5Y9GhIfq-17" value="&lt;b style=&quot;font-size: 15px;&quot;&gt;Call Chat-server&amp;nbsp;&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=15;" connectable="0" vertex="1" parent="veVKL41kce-d5Y9GhIfq-16">
+        <mxCell id="veVKL41kce-d5Y9GhIfq-17" value="&lt;b&gt;create&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=15;" connectable="0" vertex="1" parent="veVKL41kce-d5Y9GhIfq-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="veVKL41kce-d5Y9GhIfq-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;" edge="1" parent="veVKL41kce-d5Y9GhIfq-3">
+        <mxCell id="veVKL41kce-d5Y9GhIfq-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="veVKL41kce-d5Y9GhIfq-3" target="veVKL41kce-d5Y9GhIfq-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="50" y="120" as="sourcePoint" />
             <mxPoint x="120" y="60" as="targetPoint" />
@@ -95,15 +95,6 @@
               <mxPoint x="680" y="180" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="veVKL41kce-d5Y9GhIfq-19" value="ChatId" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=15;" connectable="0" vertex="1" parent="veVKL41kce-d5Y9GhIfq-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="veVKL41kce-d5Y9GhIfq-20" value="Create ChatId and return it to Backend" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="760" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="veVKL41kce-d5Y9GhIfq-23" value="save userId ,&lt;br style=&quot;font-size: 15px;&quot;&gt;chatId" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="580" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="veVKL41kce-d5Y9GhIfq-25" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=15;" edge="1" parent="1" target="veVKL41kce-d5Y9GhIfq-2">
           <mxGeometry relative="1" as="geometry">
@@ -233,6 +224,12 @@
         </mxCell>
         <mxCell id="veVKL41kce-d5Y9GhIfq-69" value="Subscribe" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontFamily=Times New Roman;fontSize=15;" connectable="0" vertex="1" parent="veVKL41kce-d5Y9GhIfq-68">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veVKL41kce-d5Y9GhIfq-23" value="save userId ,&lt;br style=&quot;font-size: 15px;&quot;&gt;chatId" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="veVKL41kce-d5Y9GhIfq-67">
+          <mxGeometry x="550" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="veVKL41kce-d5Y9GhIfq-20" value="Create ChatId&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=15;" vertex="1" parent="veVKL41kce-d5Y9GhIfq-67">
+          <mxGeometry x="475" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
